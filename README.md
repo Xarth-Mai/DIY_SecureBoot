@@ -1,4 +1,5 @@
 ### UEFI Secure Boot Configuration Guide
+Content adapted and simplified from [https://habr.com/en/articles/273497](https://habr.com/en/articles/273497).
 ### [UEFI安全启动配置教程_中文](https://github.com/Xarth-Mai/DIY-Secure_Boot/blob/main/README_zhs.md)
 
 #### Preparation
