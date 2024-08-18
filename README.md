@@ -2,8 +2,6 @@
 
 本文改编并简化自：[Habr/CodeRush](https://habr.com/en/articles/273497)
 
-[English Version](https://github.com/Xarth-Mai/DIY-Secure_Boot/blob/main/README.md)
-
 ---
 
 #### 第零步：Opencore设置（仅适用于Opencore用户）
@@ -86,6 +84,8 @@ sbsign --key ISK.key --cert ISK.pem --output bootx64.efi
 
 ### 额外步骤（仅适用于Opencore用户）
 如果你在启用了安全启动之前安装了MacOS，那么现在将无法启动。你需要启动到恢复模式，然后执行：
+ - 首先确保你的安装磁盘被挂载
+ - 修改`YourMacVolume`为你的实际安装位置
 ```bash
 bless --folder "/Volumes/YourMacVolume/System/Library/CoreServices" --bootefi --personalize
 ```
