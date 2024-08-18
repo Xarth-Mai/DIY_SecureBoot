@@ -76,7 +76,7 @@ sbsign --key ISK.key --cert ISK.pem --output bootx64.efi
 ![5](5.png)
 8. 确认文件更新。如果一切顺利，你将收到一个简单的确认消息：
 ![6](6.png)
-9. 对 `KEK.esl` 和 `db.esl` 重复相同的操作，其中 `db.esl` 对应于 `授权签名` 选项。
+9. 对 `KEK.esl` 和 `db.esl` 重复相同的操作，其中 `db.esl` 对应于 `Authorized Signature` 选项。
 ![7](7.png)
 
 ### 最后：保存BIOS修改并重启系统
