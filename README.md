@@ -73,6 +73,7 @@ sbsign --key ISK.key --cert ISK.pem --output bootx64.efi
 ![4](4.png)
 7. 选择对应的 `.esl` 文件。
    - 在我们的例子中，是 `经过身份验证的变量`：
+
 ![5](5.png)
 8. 确认文件更新。如果一切顺利，你将收到一个简单的确认消息：
 ![6](6.png)
