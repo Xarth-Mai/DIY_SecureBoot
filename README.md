@@ -29,7 +29,7 @@ cert-to-efi-sig-list -g "$(uuidgen)" KEK.pem KEK.esl
 cert-to-efi-sig-list -g "$(uuidgen)" ISK.pem ISK.esl
 ```
 
-#### 第四步：添加微软密钥（可选，用于启动Windows）
+#### 第四步：添加微软密钥（请勿轻易跳过）
 1. 将微软证书转换为PEM格式：
 ```bash
 openssl x509 -in MicWinProPCA2011_2011-10-19.crt -inform DER -out MsWin.pem -outform PEM
